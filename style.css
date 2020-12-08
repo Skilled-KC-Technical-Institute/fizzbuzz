@@ -1,0 +1,10 @@
+.number {
+  margin: 0.75rem;
+  border-radius: 25px;
+  background: #73ad21;
+  padding: 20px;
+  width: 7rem;
+  height: 4rem;
+  padding: auto, 0, auto, 0;
+  text-align: center;
+}
