@@ -1,3 +1,4 @@
+/* CSS for rounding corners as well as colors and spacing */
 .number {
   margin: 0.75rem;
   border-radius: 25px;
@@ -9,6 +10,7 @@
   text-align: center;
   color: rgb(68, 68, 68);
 }
+/* Coloring for background */
 body {
   background-color: rgb(68, 68, 68);
 }
