@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- use to reference style.css
+      <style></style>-->
+    <!--use to reference code.js
+      <script></script>-->
+  </head>
+  <body>
+    <p id="displayAll"></p>
+    <!--<h1 id="sugarCookies"></h1>
+    <p>JUST KEEP SWIMMING SWIMMING SWIMMING</p>-->
+    <!--or inline -->
+    <script>
+      /*for (x=0; x<101; x++) {
+  document.getElementById("sugarCookies").innerHTML += x + "<br>";
+}
+
+
+fizzbuzz*/
+
+      let msg = " ";
+      for (x = 1; x < 48; x++) {
+        if (x % 3 == 0 && x % 7 == 0) {
+          msg += "ButtFizz<br>";
+        } else if (x % 7 == 0) {
+          msg += "Fizz<br>";
+        } else if (x % 3 == 0) {
+          msg += "Butt<br>";
+        } else {
+          msg += x + "<br>";
+        }
+      }
+      document.querySelector("#displayAll").innerHTML = msg;
+      console.log();
+      /*}
+consloe.log("here")*/
+    </script>
+  </body>
+</html>
