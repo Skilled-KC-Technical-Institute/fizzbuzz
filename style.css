@@ -1,10 +1,9 @@
-body{
-    background-color: wheat;
-    margin: 0;
-    font-family:"Arial";
+body {
+  background-color: wheat;
+  margin: 0;
+  font-family: "Arial";
 }
 
-span
-{
-    color:green;
+span {
+  color: green;
 }
