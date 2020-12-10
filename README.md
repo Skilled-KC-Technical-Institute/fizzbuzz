@@ -16,3 +16,13 @@
 * The code should be well documented with comments, have good code structure, and following naming conventions.
 
 * Push your code to your repository
+
+
+Pseudo Code
+
+Print 1-100 in console
+If the number is divisible by 3 and 5 print FizzBuzz
+If the number is divisible by 3 print Fizz
+if the number is divisible by 5 print Buzz
+otherwise print the number
+
