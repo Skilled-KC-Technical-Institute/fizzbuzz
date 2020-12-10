@@ -16,11 +16,12 @@
   box-shadow: 0px 10px 10px 10px rgba(46, 54, 68, 0.9);
   font-family: "Poppins";
 }
-/* Coloring for background */
+/* Body background image*/
 body {
   background-image: url("abstract.jpg");
   background-color: black;
 }
+/* CSS for rounding corners as well as colors and spacing */
 .header {
   color: rgba(255, 255, 255, 1);
   margin: 0.75rem;
@@ -40,7 +41,4 @@ body {
   width: 25%;
   justify-content: center;
   margin: auto;
-}
-h1 {
-  text-align: center;
 }
